@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
 const port = 4000;
-app.use(bodyParser.urlencoded());
+// app.use(bodyParser.urlencoded());
 
 app.get("/", (req, res) => {
   //   res.send("<h1>Hello World!</h1>");
