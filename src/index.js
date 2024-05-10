@@ -2,6 +2,7 @@
 // import { DB_NAME } from "./utils/constants.js";
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
+import { app } from './app.js';
 // require("dotenv").config();
 // const { log } = require("console");
 // const express = require("express");
